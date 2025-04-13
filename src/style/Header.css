@@ -37,6 +37,15 @@ li {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #bf343b;
+}
+
 @media (max-width:800px) {
 
 }
