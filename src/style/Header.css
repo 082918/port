@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* user agent stylesheet : 브라우저가 넣은 기본 css 값 초기화 */
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    background-color: white;
+}
+
+#logo svg {
+    margin-top: 10px;
+}
+/* 로고 justify-content 설정으로도 가운데 오지 않아서 따로 margin-top 설정 부여 */
+
+div {
+    width: fit-content; 
+    height: fit-content;
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+
+}
