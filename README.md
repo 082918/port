@@ -1,12 +1,13 @@
-# React + Vite
+# 포트폴리오 사이트 만들기
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 사용 기술
 
-Currently, two official plugins are available:
+- vite : 사이트를 번들링하고 관리함
+- git : 파일 관리
+- GSAP : 애니메이션 효과
+- lenis : 부드러운 스크롤 효과
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 공부하게 된 기술
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- GSAP(GreenSock Animation Platform) : 강하고 유연한 js 기반 애니메이션 라이브러리. 웹 애플리케이션 및 웹 사이트에서 고품질의 애니메이션을 구현하는데 사용.
+- lenis : 부드러운 스크롤(smooth scrolling)을 제공하는 경량 JavaScript 스크롤 라이브러리. 자연스럽고 매끄럽게 움직이게 구현하는데 사용.
