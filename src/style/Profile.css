@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main p, section p {
+    color: #595959;
+}
+main div, section div {
+    margin-bottom: 30px;
+}

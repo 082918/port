@@ -6,6 +6,7 @@
 - SPA : 페이지 전환 없이 동적으로 콘텐츠 업데이트
 - git : 파일 관리
 - GSAP : 애니메이션 효과
+- Locomotive-scroll : 부드러운 스크롤 효과
 - lenis : 부드러운 스크롤 효과
 - react icon : 리액트 아이콘 라이브러리 사용 (npm install react-icons)
 

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const menu = [
-    { name: "Profile", path: "/profile" },
-    { name: "Skill", path: "/skill" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "Contact", path: "/contact" },
+    { name: "Profile" },
+    { name: "Skill" },
+    { name: "Projects" },
+    { name: "Contact" },
   ];
 
   return (
@@ -23,9 +23,7 @@ function Header() {
         <div>
           <ul>
             {menu.map((item, index) => (
-              <li key={index}>
-                <Link to={item.path}>{item.name}</Link>
-              </li>
+              <li key={index}>{item.name}</li>
             ))}
           </ul>
         </div>
