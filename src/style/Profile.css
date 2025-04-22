@@ -1,11 +1,35 @@
 body {
-    margin: 0;
     padding: 0;
+    display: flex;
 }
 
-main p, section p {
+.title{
+    margin-top: 200px;
     color: #595959;
 }
-main div, section div {
-    margin-bottom: 30px;
+
+.profileContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profileBox {
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.photoBox {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.profileBox div {
+    display: flex;
+}
+
+.nameBox {
+    font-size: 32px;
+    gap: 10px;
 }
