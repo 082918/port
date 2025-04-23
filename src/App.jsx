@@ -18,7 +18,7 @@ function App() {
         {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/page" element={<Page />} />
+          <Route path="/Page" element={<Page />} />
         </Routes>
       </BrowserRouter>
     </>

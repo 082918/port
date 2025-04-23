@@ -15,14 +15,24 @@ body {
 }
 
 .profileBox {
+    width: 520px;
     height: 50vh;
     margin-bottom: 50px;
 }
 
+.profileBox p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
 .photoBox {
     width: 200px;
-    height: 200px;
+    height: 160px;
     background-color: antiquewhite;
+}
+
+.photoBox img {
+    width: 100%;
 }
 
 .profileBox div {
