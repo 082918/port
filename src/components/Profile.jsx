@@ -23,10 +23,12 @@ function Profile() {
           </p>
         </div>
         <div className="photoBox">
-          <img src={mido045} alt="이미지테승트" />
+          <img src={mido045} alt="이미지테스트" />
         </div>
       </div>
-      <div> 테스트 박스 </div>
+      <div>
+        <p> About Me </p>
+      </div>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "../components/Header";
+import "../style/Skill.css";
 
 function Skill() {
   return (
@@ -7,8 +7,20 @@ function Skill() {
       <p> Skill </p>
       <div>
         <div>
-          <h2> html </h2>
-          <h3> ~~ 사용 가능</h3>
+          <ul className="skillItem">
+            <li>
+              <div></div>
+            </li>
+            <li>
+              <div></div>
+            </li>
+            <li>
+              <div></div>
+            </li>
+            <li>
+              <div></div>
+            </li>
+          </ul>
         </div>
       </div>
     </>
