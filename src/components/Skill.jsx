@@ -4,24 +4,13 @@ import "../style/Skill.css";
 function Skill() {
   return (
     <>
-      <p> Skill </p>
+      <p>Skill</p>
       <div>
-        <div>
-          <ul className="skillItem">
-            <li>
-              <div></div>
-            </li>
-            <li>
-              <div></div>
-            </li>
-            <li>
-              <div></div>
-            </li>
-            <li>
-              <div></div>
-            </li>
-          </ul>
-        </div>
+        <ul className="skillItem">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
       </div>
     </>
   );
