@@ -29,7 +29,6 @@ function Projects() {
       <p>Projects</p>
       <div>
         <div>
-          <h2> project 1 </h2>
           <div className="projectBox">
             <Swiper
               modules={[Autoplay]}
@@ -54,7 +53,6 @@ function Projects() {
                 - delay : 슬라이드 넘어가기 전까지 기다리는 시간
                 - disableOnInteraction : 사용자가 슬라이드를 터치하거나 드래그해도 autoplay 설정은 멈추지 않음
               */}
-
               {projects.map((project, index) => (
                 <SwiperSlide
                   key={index}

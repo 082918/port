@@ -6,7 +6,7 @@ import test_img from "../assets/test_img.png";
 function Profile() {
   return (
     <>
-      <p className="title">Profile</p>
+      <p className="title">About Me</p>
       <div className="profileContainer">
         <div className="profileBox">
           <h2> 안녕하세요. 저는 개발자 </h2>
@@ -25,9 +25,6 @@ function Profile() {
         <div className="photoBox">
           <img src={test_img} alt="이미지테스트" />
         </div>
-      </div>
-      <div>
-        <p> About Me </p>
       </div>
     </>
   );
